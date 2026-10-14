@@ -1,0 +1,33 @@
+{
+  "name": "motiontrace",
+  "version": "0.1.0",
+  "description": "动迹 MotionTrace：在浏览器本机识别训练姿态，提供动作计数、中文语音反馈、训练计划与 AI 教练问答。",
+  "license": "MIT",
+  "author": "Zhang Han (Nahzzz77)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nahzzz77/motiontrace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nahzzz77/motiontrace/issues"
+  },
+  "homepage": "https://github.com/Nahzzz77/motiontrace#readme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "build:vefaas": "npm run build && node scripts/prepare-vefaas-output.mjs",
+    "start": "node server/index.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vite": "8.2.1",
+    "vitest": "4.1.10"
+  }
+}

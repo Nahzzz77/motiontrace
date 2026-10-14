@@ -1,0 +1,27 @@
+/node_modules
+dist/
+.runtime/
+.superpowers/
+reference/
+FORM 健身教练.app/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+.form-auth-state.json
+.vefaas/
+.vefaas-build/
+.vercel/
+MotionTrace.app/
+我的项目说明.md
+
+# Original generation assets and research archives stay in the local development archive.
+public/assets/exercise-catalog/generated-batch-01/*.gif
+public/assets/exercise-catalog/generated-batch-01/*-keyframes.png
+public/assets/exercise-catalog/generated-batch-02/*.gif
+public/assets/exercise-catalog/generated-batch-02/*-keyframes.png
+public/assets/plan-covers/*.png
+public/assets/category-heroes/*.png
+public/assets/brand/ready-hero-*.png
+docs/competitive/

@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.git/
+.runtime/
+.superpowers/
+.vefaas/
+.vefaas-build/
+reference/
+docs/
+tests/
+scripts/
+*.log
+.env
+.env.*
+.form-auth-state.json
+.DS_Store
+*.app/
+我的项目说明.md
+启动健身教练.command
+# Source originals are retained locally; the app uses their WebP/video exports.
+public/assets/exercise-catalog/generated-batch-01/*.gif
+public/assets/exercise-catalog/generated-batch-01/*-keyframes.png
+public/assets/exercise-catalog/generated-batch-02/*.gif
+public/assets/exercise-catalog/generated-batch-02/*-keyframes.png
+public/assets/plan-covers/*.png

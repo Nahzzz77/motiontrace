@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "id": "github:nahzzz77/motiontrace",
+    "name": "动迹 MotionTrace",
+    "slug": "motiontrace",
+    "version": "0.1.0",
+    "repository": "https://github.com/Nahzzz77/motiontrace",
+    "maintainer": "Zhang Han (Nahzzz77)",
+    "maintainerProfile": "https://github.com/Nahzzz77"
+  },
+  "source": {
+    "repository": "https://github.com/fengxinbo558/jiaolian",
+    "commit": "6963e33f9a989b6ce838ae0e98f9e6993ede3a29",
+    "historyPreserved": false,
+    "ownershipBasis": "The maintainer confirmed ownership of the original repository."
+  },
+  "rebrandDate": "2026-09-20",
+  "license": {
+    "spdx": "MIT",
+    "copyright": "2026 Zhang Han (Nahzzz77)",
+    "file": "LICENSE",
+    "scope": "Project code and documentation the maintainer has the right to license; third-party materials retain their own terms.",
+    "thirdPartyNotices": "THIRD_PARTY_NOTICES.md"
+  },
+  "fingerprint": {
+    "algorithm": "SHA-256",
+    "manifest": "FINGERPRINT.sha256",
+    "coverage": "All Git-tracked files at this release, except FINGERPRINT.sha256 itself. Local configuration, credentials, runtime data and ignored files are excluded.",
+    "verification": "shasum -a 256 -c FINGERPRINT.sha256",
+    "crossPlatformVerification": "node scripts/fingerprint.mjs --check",
+    "generation": "Stage the release files, run node scripts/fingerprint.mjs --write, then stage FINGERPRINT.sha256.",
+    "limitations": "File integrity checks only; not a cryptographic signature, proof of ownership or copy protection. Regenerate after changing tracked files."
+  },
+  "publication": {
+    "date": "2026-10-14",
+    "type": "source-snapshot",
+    "sourceCommit": "a1346b139347f6be423a50f56e4aad1c7e474bc6",
+    "scope": "Runnable source, required application media, tests, setup and licensing documents. Original high-resolution generation assets and research archives remain in the local development repository; historical commits are not included in this public snapshot."
+  }
+}
